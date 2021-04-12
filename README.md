@@ -49,7 +49,7 @@ Accuracy Metric is MAE.
 
 Model is trained for 100 epochs as i have observed an average increase in accuracy with number of epochs.
 Batch size is 255 to devide the whole dataset into not too many batches
-
+(Here, Model is trained on Fast GPU of Google Cloud with using Google colab)
 
 **FInal Outcome**  
 The Model being trained for 100 epocs shows accuracy and loss metrics as shown on below graphs

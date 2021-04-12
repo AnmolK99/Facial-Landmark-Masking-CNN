@@ -1,7 +1,7 @@
 # Facial-Landmark-Masking-CNN-
 Masking Lips and Eyes of Images by a CNN to detect Facial Landmarks
 
-_Dataset used_,
+**Dataset used**,
 Cleaned Muct Dataset
 http://www.milbo.org/muct/
 https://github.com/StephenMilborrow/muct (Uncleaned raw ones)

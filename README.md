@@ -3,8 +3,9 @@ Masking Lips and Eyes of Images by a CNN to detect Facial Landmarks
 
 **Dataset used**,
 Cleaned Muct Dataset
-http://www.milbo.org/muct/
-https://github.com/StephenMilborrow/muct (Uncleaned raw ones)
+http://www.milbo.org/muct/  
+https://github.com/StephenMilborrow/muct (Uncleaned raw ones)  
+https://drive.google.com/drive/folders/1mSDsY3gIC2_etcvk-WTWJcIxSApnORZB?usp=sharing (Cleaned ones here)  
 List of training 7049 images. Row containing (x,y) coordinates for 15 keypoints, and image data as row-ordered list of pixels.
 List of 1783 test images. Row containing ImageId and image data as row-ordered list of pixels.
 
@@ -18,7 +19,18 @@ above image depicts the landmarks we are targeting our NN to detect.
 Masking the image with relevant color Blob is not so difficult task when you have the points  
 surrounding the targetted area  
 this task can be done using OpenCVs FillPoly function  
-_cv2.fillPoly(img2, mask_points, choice, lineType=cv2.LINE_AA)_
+_cv2.fillPoly(img2, mask_points, choice, lineType=cv2.LINE_AA)_  
+
+Post-Prediction the image, Predicted Landmark Positions and Mask looks like below  
+![original_image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index4.png)
+![Predicted landmark on image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index5.png)
+![Masking of landmarks predicted](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index6.png)  
+![original_image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index7.png)
+![Predicted landmark on image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index8.png)
+![Masking of landmarks predicted](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index9.png)  
+(the images seems uplifted a little which can easily be solved by increasing the y-coordinate of checkpoints) 
+
+(**Please Check the Model and Outcome on your Machine yourself, This Method is running prefectly for Human Face Images**)
 
 
 **Data Extraction**   

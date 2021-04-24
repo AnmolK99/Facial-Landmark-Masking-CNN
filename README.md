@@ -28,7 +28,8 @@ Post-Prediction the image, Predicted Landmark Positions and Mask looks like belo
 ![original_image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index7.png)
 ![Predicted landmark on image](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index8.png)
 ![Masking of landmarks predicted](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/index9.png)  
-(the images seems uplifted a little which can easily be solved by increasing the y-coordinate of checkpoints) 
+(Please check for other testimages as well and test the model for accuracy)
+(the images seems uplifted and towards left a little which can easily be solved by increasing the x and y coordinate values of checkpoints) 
 
 (**Please Check the Model and Outcome on your Machine yourself, This Method is running prefectly for Human Face Images**)
 
@@ -55,7 +56,7 @@ Batch size is 255 to devide the whole dataset into not too many batches
 The Model being trained for 100 epocs shows accuracy and loss metrics as shown on below graphs
 ![Accuracy Visualization](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/accuracy_metrics.png)
 ![Loss Visualization](https://github.com/AnmolK99/Facial-Landmark-Masking-CNN-/blob/main/images/loss_metrics.png)  
-
+(Above Model is trained on fast GPU of Google Colab cloud environment, if you want to try it just export the dataset and .ipynb file to colab directory and run the commands there)
 
 This Method is Detecting the 15 Facial Landmarks using CNN,  
 many other pre-built libraries with > 20 facial landmark identification can be found over the Internet such as ,

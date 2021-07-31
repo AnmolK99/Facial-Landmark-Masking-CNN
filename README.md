@@ -4,7 +4,7 @@ Masking Lips and Eyes of Images by a CNN to detect Facial Landmarks
 **Dataset used**,
 Cleaned Muct Dataset
 http://www.milbo.org/muct/  
-https://github.com/StephenMilborrow/muct (Uncleaned raw Dataset)  
+https://github.com/StephenMilborrow/muct (Uncleaned Raw Dataset)  
 https://drive.google.com/drive/folders/1mSDsY3gIC2_etcvk-WTWJcIxSApnORZB?usp=sharing (Preprocessed Clean Dataset)  
 List of training 7049 images. Row containing (x,y) coordinates for 15 keypoints, and image data as row-ordered list of pixels.
 List of 1783 test images. Row containing ImageId and image data as row-ordered list of pixels.

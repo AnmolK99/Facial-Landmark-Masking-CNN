@@ -1,4 +1,4 @@
-# Facial-Landmark-Masking-CNN
+# Facial-Landmark-Masking-Using-CNN
 Masking Lips and Eyes of Images by a CNN to detect Facial Landmarks
 
 **Dataset used**,
